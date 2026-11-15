@@ -29,6 +29,15 @@ class SafetyTests(unittest.TestCase):
     def test_no_change_idempotent(self):
         a={'sources':{'arxiv':{'x':1}},'checked_at':'yesterday'};b=copy.deepcopy(a);b['checked_at']='today'
         self.assertEqual(p.compare(a,b),[])
+    def test_profile_baseline_commit_does_not_hide_real_changes(self):
+        a={'sources':{'github_repositories':[{'name':'Saeid86Jamali','pushed_at':'old','description':'profile'}, {'name':'research','pushed_at':'old','description':'experiment'}]}}
+        b=copy.deepcopy(a);b['sources']['github_repositories'][0]['pushed_at']='new'
+        self.assertEqual(p.compare(a,b),[])
+        self.assertEqual(b['sources']['github_repositories'][0]['pushed_at'],'new')
+        b['sources']['github_repositories'][0]['description']='changed profile'
+        self.assertEqual(len(p.compare(a,b)),1)
+        b=copy.deepcopy(a);b['sources']['github_repositories'][1]['pushed_at']='new'
+        self.assertEqual(len(p.compare(a,b)),1)
     def test_mismatched_doi_rejected(self):
         with self.assertRaises(ValueError):p.crossref_record(json.dumps({'status':'ok','message':{'DOI':'10.0000/wrong'}}),'10.1234/right')
     def test_total_network_failure_is_partial(self):
