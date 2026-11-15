@@ -147,11 +147,20 @@ def collect(data,fetcher=fetch):
     result['status']='complete' if not result['errors'] else 'partial'
     return result
 
+def comparison_value(source,value):
+    # Recording a new baseline must not flag its own profile commit forever.
+    # Keep the original timestamp in evidence; ignore only this one field in diffs.
+    if source != 'github_repositories' or value is None:
+        return value
+    return [{k:v for k,v in row.items()
+             if k != 'pushed_at' or row.get('name') != 'Saeid86Jamali'}
+            for row in value]
+
 def compare(previous,current):
     changes=[]
     for source,new in current.get('sources',{}).items():
         old=previous.get('sources',{}).get(source)
-        if old!=new:changes.append({'source':source,'previous':old,'observed':new,'action':'review_required'})
+        if comparison_value(source,old)!=comparison_value(source,new):changes.append({'source':source,'previous':old,'observed':new,'action':'review_required'})
     return changes
 
 def main():
