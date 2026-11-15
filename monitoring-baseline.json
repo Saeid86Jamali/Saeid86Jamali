@@ -1,66 +1,97 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-15T00:52:47.534313+00:00",
+  "checked_at": "2026-11-15T01:34:24.931578+00:00",
   "sources": {
     "github_profile": {
       "login": "Saeid86Jamali",
-      "name": "Saeid",
-      "bio": "Data Engineer",
-      "company": "Fasa University",
+      "name": "Saeid Jamali",
+      "bio": "Ph.D. student at University of Nevada, Reno | Operator algebras, dynamical systems, interpretable learning and LLM evaluation",
+      "company": "University of Nevada, Reno",
       "blog": "",
-      "public_repos": 6
+      "public_repos": 7
     },
     "github_repositories": [
       {
         "name": "A-Comparative-Analysis-of-Clustering-Algorithms-on-Breast-Cancer-Diagnosis",
-        "description": "A Comparative Analysis of Clustering Algorithms on Breast Cancer Diagnosis",
-        "topics": [],
-        "pushed_at": "2023-12-23T07:19:28Z",
+        "description": "Historical clustering notebook on Wisconsin diagnostic data; documented evaluation limitations.",
+        "topics": [
+          "clustering",
+          "jupyter-notebook",
+          "scikit-learn"
+        ],
+        "pushed_at": "2026-11-15T01:21:10Z",
         "archived": false,
         "default_branch": "main",
         "html_url": "https://github.com/Saeid86Jamali/A-Comparative-Analysis-of-Clustering-Algorithms-on-Breast-Cancer-Diagnosis"
       },
       {
         "name": "Comparing-Rotation-Forest-and-Random-Forest-on-Breast-Cancer-Dataset",
-        "description": null,
-        "topics": [],
-        "pushed_at": "2023-12-23T09:30:03Z",
+        "description": "Historical Rotation Forest / Random Forest comparison; saved outputs and reproducibility gaps.",
+        "topics": [
+          "jupyter-notebook",
+          "random-forest",
+          "scikit-learn"
+        ],
+        "pushed_at": "2026-11-15T01:23:41Z",
         "archived": false,
         "default_branch": "main",
         "html_url": "https://github.com/Saeid86Jamali/Comparing-Rotation-Forest-and-Random-Forest-on-Breast-Cancer-Dataset"
       },
       {
         "name": "Exploring-Classification-Algorithms-for-Breast-Cancer-Data-Analysis",
-        "description": null,
-        "topics": [],
-        "pushed_at": "2023-12-23T09:01:36Z",
+        "description": "Historical classical-classifier notebook; missing data input and preprocessing limitations documented.",
+        "topics": [
+          "classification",
+          "jupyter-notebook",
+          "scikit-learn"
+        ],
+        "pushed_at": "2026-11-15T01:25:05Z",
         "archived": false,
         "default_branch": "main",
         "html_url": "https://github.com/Saeid86Jamali/Exploring-Classification-Algorithms-for-Breast-Cancer-Data-Analysis"
       },
       {
         "name": "Recurrent-Neural-Network-Time-Series-Forecasting-with-Dynamic-Lag-Identification",
-        "description": null,
-        "topics": [],
-        "pushed_at": "2023-12-23T08:41:15Z",
+        "description": "Historical Keras time-series notebook; missing data and temporal evaluation limitations documented.",
+        "topics": [
+          "jupyter-notebook",
+          "keras",
+          "time-series"
+        ],
+        "pushed_at": "2026-11-15T01:29:21Z",
         "archived": false,
         "default_branch": "main",
         "html_url": "https://github.com/Saeid86Jamali/Recurrent-Neural-Network-Time-Series-Forecasting-with-Dynamic-Lag-Identification"
       },
       {
-        "name": "Unveiling-the-Superiority-of-Logistic-Regression-in-Breast-Cancer-Classification-A-Hyperparameter-O",
-        "description": null,
+        "name": "Saeid86Jamali",
+        "description": "Research profile, verified publications, and reviewed portfolio maintenance for Saeid Jamali, University of Nevada, Reno.",
         "topics": [],
-        "pushed_at": "2023-12-23T08:18:33Z",
+        "pushed_at": "2026-11-15T01:31:22Z",
+        "archived": false,
+        "default_branch": "main",
+        "html_url": "https://github.com/Saeid86Jamali/Saeid86Jamali"
+      },
+      {
+        "name": "Unveiling-the-Superiority-of-Logistic-Regression-in-Breast-Cancer-Classification-A-Hyperparameter-O",
+        "description": "Historical logistic-regression / decision-tree grid-search example; saved results and known issues.",
+        "topics": [
+          "classification",
+          "model-selection",
+          "scikit-learn"
+        ],
+        "pushed_at": "2026-11-15T01:31:32Z",
         "archived": false,
         "default_branch": "main",
         "html_url": "https://github.com/Saeid86Jamali/Unveiling-the-Superiority-of-Logistic-Regression-in-Breast-Cancer-Classification-A-Hyperparameter-O"
       },
       {
         "name": "mempos-probe",
-        "description": "Position-controlled diagnostics for LLM memory retrieval/utilization confounds.",
-        "topics": [],
-        "pushed_at": "2026-06-22T06:51:47Z",
+        "description": "Placeholder for position-controlled LLM memory diagnostics; no public implementation yet.",
+        "topics": [
+          "llm-evaluation"
+        ],
+        "pushed_at": "2026-11-15T01:25:50Z",
         "archived": false,
         "default_branch": "main",
         "html_url": "https://github.com/Saeid86Jamali/mempos-probe"

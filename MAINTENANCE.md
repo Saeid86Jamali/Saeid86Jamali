@@ -34,6 +34,9 @@ successfully fetched source with `monitoring-baseline.json` and produces
 `review/observed.json`, `changes.json` and `summary.md`. Source failure produces
 a partial result and a failing exit code; it is never interpreted as deletion.
 New arXiv name matches remain candidates requiring identity review.
+The profile repository’s own push timestamp is retained in evidence but ignored
+in comparisons, so committing a reviewed baseline does not trigger itself.
+Changes to its metadata and other repositories’ push times are still reported.
 
 It cannot detect a private submission, acceptance email, private dataset, new
 ChatGPT conversation or unreleased experiment. It does not change GitHub settings,
