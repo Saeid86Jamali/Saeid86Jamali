@@ -1,0 +1,48 @@
+name: Portfolio checks and public-source review
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 16 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Test safeguards
+        run: python3 -m unittest discover -s tests -v
+      - name: Verify generated profile
+        run: python3 scripts/portfolio.py render --check
+  review:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Collect public metadata
+        run: python3 scripts/portfolio.py monitor
+      - name: Show review summary
+        if: always()
+        run: |
+          if test -f review/summary.md; then
+            cat review/summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Preserve review evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: public-portfolio-review-${{ github.run_id }}
+          path: review/
+          retention-days: 90
+          if-no-files-found: warn
