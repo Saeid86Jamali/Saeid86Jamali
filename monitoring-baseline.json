@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-15T00:52:47.534313+00:00",
+  "sources": {
+    "github_profile": {
+      "login": "Saeid86Jamali",
+      "name": "Saeid",
+      "bio": "Data Engineer",
+      "company": "Fasa University",
+      "blog": "",
+      "public_repos": 6
+    },
+    "github_repositories": [
+      {
+        "name": "A-Comparative-Analysis-of-Clustering-Algorithms-on-Breast-Cancer-Diagnosis",
+        "description": "A Comparative Analysis of Clustering Algorithms on Breast Cancer Diagnosis",
+        "topics": [],
+        "pushed_at": "2023-12-23T07:19:28Z",
+        "archived": false,
+        "default_branch": "main",
+        "html_url": "https://github.com/Saeid86Jamali/A-Comparative-Analysis-of-Clustering-Algorithms-on-Breast-Cancer-Diagnosis"
+      },
+      {
+        "name": "Comparing-Rotation-Forest-and-Random-Forest-on-Breast-Cancer-Dataset",
+        "description": null,
+        "topics": [],
+        "pushed_at": "2023-12-23T09:30:03Z",
+        "archived": false,
+        "default_branch": "main",
+        "html_url": "https://github.com/Saeid86Jamali/Comparing-Rotation-Forest-and-Random-Forest-on-Breast-Cancer-Dataset"
+      },
+      {
+        "name": "Exploring-Classification-Algorithms-for-Breast-Cancer-Data-Analysis",
+        "description": null,
+        "topics": [],
+        "pushed_at": "2023-12-23T09:01:36Z",
+        "archived": false,
+        "default_branch": "main",
+        "html_url": "https://github.com/Saeid86Jamali/Exploring-Classification-Algorithms-for-Breast-Cancer-Data-Analysis"
+      },
+      {
+        "name": "Recurrent-Neural-Network-Time-Series-Forecasting-with-Dynamic-Lag-Identification",
+        "description": null,
+        "topics": [],
+        "pushed_at": "2023-12-23T08:41:15Z",
+        "archived": false,
+        "default_branch": "main",
+        "html_url": "https://github.com/Saeid86Jamali/Recurrent-Neural-Network-Time-Series-Forecasting-with-Dynamic-Lag-Identification"
+      },
+      {
+        "name": "Unveiling-the-Superiority-of-Logistic-Regression-in-Breast-Cancer-Classification-A-Hyperparameter-O",
+        "description": null,
+        "topics": [],
+        "pushed_at": "2023-12-23T08:18:33Z",
+        "archived": false,
+        "default_branch": "main",
+        "html_url": "https://github.com/Saeid86Jamali/Unveiling-the-Superiority-of-Logistic-Regression-in-Breast-Cancer-Classification-A-Hyperparameter-O"
+      },
+      {
+        "name": "mempos-probe",
+        "description": "Position-controlled diagnostics for LLM memory retrieval/utilization confounds.",
+        "topics": [],
+        "pushed_at": "2026-06-22T06:51:47Z",
+        "archived": false,
+        "default_branch": "main",
+        "html_url": "https://github.com/Saeid86Jamali/mempos-probe"
+      }
+    ],
+    "arxiv_author_search": {
+      "2204.03615": {
+        "id": "2204.03615",
+        "version": "v2",
+        "title": "Group actions on simple tracially $\\mathcal{Z}$-absorbing C*-algebras",
+        "authors": [
+          "Massoud Amini",
+          "Nasser Golestani",
+          "Saeid Jamali",
+          "N. Christopher Phillips"
+        ],
+        "updated": "2022-04-22T03:19:39Z",
+        "doi": null,
+        "journal_ref": null,
+        "identity_status": "known_public_record"
+      },
+      "2109.05192": {
+        "id": "2109.05192",
+        "version": "v3",
+        "title": "Simple tracially $\\mathcal{Z}$-absorbing C*-algebras",
+        "authors": [
+          "Massoud Amini",
+          "Nasser Golestani",
+          "Saeid Jamali",
+          "N. Christopher Phillips"
+        ],
+        "updated": "2022-03-24T16:17:08Z",
+        "doi": null,
+        "journal_ref": null,
+        "identity_status": "known_public_record"
+      }
+    },
+    "crossref:10.1017/S1474748025000180": {
+      "DOI": "10.1017/s1474748025000180",
+      "title": [
+        "SIMPLE TRACIALLY \n$\\mathcal {Z}$\n-ABSORBING C*-ALGEBRAS"
+      ],
+      "author": [
+        {
+          "given": "Massoud",
+          "family": "Amini",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03mwgfy56",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tarbiat Modares University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6319-3474",
+          "authenticated-orcid": false,
+          "given": "Nasser",
+          "family": "Golestani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03mwgfy56",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tarbiat Modares University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Saeid",
+          "family": "Jamali",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03mwgfy56",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tarbiat Modares University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N. Christopher",
+          "family": "Phillips",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Oregon"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of the Institute of Mathematics of Jussieu"
+      ],
+      "volume": "24",
+      "issue": "6",
+      "page": "2135-2179",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            4
+          ]
+        ]
+      },
+      "relation": {},
+      "update-to": null,
+      "updated-by": null
+    },
+    "crossref:10.7900/jot.2022nov02.2417": {
+      "DOI": "10.7900/jot.2022nov02.2417",
+      "title": [
+        "Finite group and integer actions on simple tracially Z-absorbing C*-algebras"
+      ],
+      "author": [
+        {
+          "given": "Massoud",
+          "family": "Amini",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nasser",
+          "family": "Golestani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Saeid",
+          "family": "Jamali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N. Christopher",
+          "family": "Phillips",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Operator Theory"
+      ],
+      "volume": "92",
+      "issue": "2",
+      "page": "505-547",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            1
+          ]
+        ]
+      },
+      "relation": {},
+      "update-to": null,
+      "updated-by": null
+    },
+    "crossref:10.61186/ijmsi.19.1.51": {
+      "DOI": "10.61186/ijmsi.19.1.51",
+      "title": [
+        "Tracial Cyclic Rokhlin Property for Automorphisms of Non-unital Simple C*-algebras"
+      ],
+      "author": [
+        {
+          "given": "Saeid",
+          "family": "Jamali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Iranian Journal of Mathematical Sciences and Informatics"
+      ],
+      "volume": "19",
+      "issue": "1",
+      "page": "51-62",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ]
+      },
+      "relation": {},
+      "update-to": null,
+      "updated-by": null
+    }
+  },
+  "errors": {},
+  "status": "complete"
+}

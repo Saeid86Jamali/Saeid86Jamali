@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "reviewed_date": "2026-11-14",
+  "profile": {
+    "name": "Saeid Jamali",
+    "github": "Saeid86Jamali",
+    "affiliation": "University of Nevada, Reno",
+    "position": "Ph.D. student in Mathematics and Statistics",
+    "email": "sjamali@unr.edu"
+  },
+  "publications": [
+    {
+      "id": "amgjp2025",
+      "title": "Simple tracially Z-absorbing C*-algebras",
+      "authors": [
+        "Massoud Amini",
+        "Nasser Golestani",
+        "Saeid Jamali",
+        "N. Christopher Phillips"
+      ],
+      "journal": "Journal of the Institute of Mathematics of Jussieu",
+      "volume": "24",
+      "issue": "6",
+      "pages": "2135\u20132179",
+      "year": 2025,
+      "doi": "10.1017/S1474748025000180",
+      "arxiv": "2109.05192",
+      "status": "published",
+      "public_release_approved": true,
+      "source": "https://www.cambridge.org/core/journals/journal-of-the-institute-of-mathematics-of-jussieu/article/abs/simple-tracially-mathcal-zabsorbing-calgebras/752FB04A5BD1B4DF16A5CBD183682DC1"
+    },
+    {
+      "id": "amgjp2024",
+      "title": "Finite group and integer actions on simple tracially Z-absorbing C*-algebras",
+      "authors": [
+        "Massoud Amini",
+        "Nasser Golestani",
+        "Saeid Jamali",
+        "N. Christopher Phillips"
+      ],
+      "journal": "Journal of Operator Theory",
+      "volume": "92",
+      "issue": "2",
+      "pages": "505\u2013547",
+      "year": 2024,
+      "doi": "10.7900/jot.2022nov02.2417",
+      "arxiv": "2204.03615",
+      "status": "published",
+      "public_release_approved": true,
+      "source": "https://jot.theta.ro/jot/archive/2024-092-002/2024-092-002-009.html"
+    },
+    {
+      "id": "jamali2024",
+      "title": "Tracial Cyclic Rokhlin Property for Automorphisms of Non-unital Simple C*-algebras",
+      "authors": [
+        "Saeid Jamali"
+      ],
+      "journal": "Iranian Journal of Mathematical Sciences and Informatics",
+      "volume": "19",
+      "issue": "1",
+      "pages": "51\u201362",
+      "year": 2024,
+      "doi": "10.61186/ijmsi.19.1.51",
+      "arxiv": null,
+      "status": "published",
+      "public_release_approved": true,
+      "source": "https://api.crossref.org/works/10.61186/ijmsi.19.1.51"
+    }
+  ],
+  "projects": []
+}
